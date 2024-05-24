@@ -1,0 +1,97 @@
+body {
+    background-image: url(); /* Path to your imody {
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;age */
+    background-image:image() ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color:rgb(201, 214, 216);
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+.header-logo {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px
+
+ }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    border-radius: 8px;
+}
+
+h2 {
+    color: #dddfdd;
+}
+
+footer {
+    background-color: #1d1515;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.collapsible {
+    background-color: rgb(201, 214, 216);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.active, .collapsible:hover {
+    background-color: rgb(9, 85, 97);
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+}
